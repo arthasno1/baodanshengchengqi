@@ -1,0 +1,107 @@
+/* 重置所有元素的外边距和内边距 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 重置HTML和body */
+html,
+body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 重置列表样式 */
+ul,
+ol {
+    list-style: none;
+}
+
+/* 重置链接样式 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 重置按钮样式 */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+}
+
+/* 重置输入框样式 */
+input,
+textarea {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+/* 重置图片样式 */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 重置表格样式 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置标题样式 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: inherit;
+}
+
+/* 重置引用样式 */
+blockquote,
+q {
+    quotes: none;
+}
+
+/* 重置表单元素样式 */
+select,
+input,
+textarea,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* 移除移动端点击高亮 */
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* 禁止文本选择 */
+.no-select {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
